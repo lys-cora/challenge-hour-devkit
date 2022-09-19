@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6799A7DAB9147EB40303D9B6 /* Pods_hour_message.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82834EA4A1438C3ECDFBB472 /* Pods_hour_message.framework */; };
+		7FC6253D97709640CFE03FFC /* Pods_hour_message_hour_messageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB88F1F9E8027C0D15DE4340 /* Pods_hour_message_hour_messageUITests.framework */; };
 		87B58B9528D79F5800998C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B58B9428D79F5800998C16 /* AppDelegate.swift */; };
 		87B58B9728D79F5800998C16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B58B9628D79F5800998C16 /* SceneDelegate.swift */; };
 		87B58B9928D79F5800998C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B58B9828D79F5800998C16 /* ViewController.swift */; };
@@ -15,6 +17,12 @@
 		87B58BAC28D79F5900998C16 /* hour_messageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B58BAB28D79F5900998C16 /* hour_messageTests.swift */; };
 		87B58BB628D79F5900998C16 /* hour_messageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B58BB528D79F5900998C16 /* hour_messageUITests.swift */; };
 		87B58BB828D79F5900998C16 /* hour_messageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B58BB728D79F5900998C16 /* hour_messageUITestsLaunchTests.swift */; };
+		87B58BC628D81A7C00998C16 /* HourMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B58BC528D81A7C00998C16 /* HourMessageView.swift */; };
+		87B58BCA28D81BCD00998C16 /* HourMessageString.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87B58BC928D81BCD00998C16 /* HourMessageString.strings */; };
+		87B58BCC28D81D7C00998C16 /* HourMessageString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B58BCB28D81D7C00998C16 /* HourMessageString.swift */; };
+		87B58BCF28D81DF700998C16 /* String+Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B58BCE28D81DF700998C16 /* String+Resources.swift */; };
+		87B58BD728D8EB4100998C16 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B58BD628D8EB4100998C16 /* XCTest.framework */; };
+		AD6859F62869E8BE42E325C9 /* Pods_hour_messageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D168CC3F069597A3E0204318 /* Pods_hour_messageTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F0F3AECBBC1313C7523F8EC /* Pods-hour-messageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hour-messageTests.release.xcconfig"; path = "Target Support Files/Pods-hour-messageTests/Pods-hour-messageTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A853BF73EB9870F2BCAF83D /* Pods-hour-message.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hour-message.release.xcconfig"; path = "Target Support Files/Pods-hour-message/Pods-hour-message.release.xcconfig"; sourceTree = "<group>"; };
+		5FBFD29EFBBACF33C29182B7 /* Pods-hour-message-hour-messageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hour-message-hour-messageUITests.release.xcconfig"; path = "Target Support Files/Pods-hour-message-hour-messageUITests/Pods-hour-message-hour-messageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		817EC08E1BF049FB24EDE2AE /* Pods-hour-messageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hour-messageTests.debug.xcconfig"; path = "Target Support Files/Pods-hour-messageTests/Pods-hour-messageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82834EA4A1438C3ECDFBB472 /* Pods_hour_message.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hour_message.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B58B9128D79F5800998C16 /* hour-message.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hour-message.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B58B9428D79F5800998C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87B58B9628D79F5800998C16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +60,15 @@
 		87B58BB128D79F5900998C16 /* hour-messageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hour-messageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B58BB528D79F5900998C16 /* hour_messageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hour_messageUITests.swift; sourceTree = "<group>"; };
 		87B58BB728D79F5900998C16 /* hour_messageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hour_messageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87B58BC528D81A7C00998C16 /* HourMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourMessageView.swift; sourceTree = "<group>"; };
+		87B58BC928D81BCD00998C16 /* HourMessageString.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = HourMessageString.strings; sourceTree = "<group>"; };
+		87B58BCB28D81D7C00998C16 /* HourMessageString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourMessageString.swift; sourceTree = "<group>"; };
+		87B58BCE28D81DF700998C16 /* String+Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Resources.swift"; sourceTree = "<group>"; };
+		87B58BD628D8EB4100998C16 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8817CC6FD57D025BBF195815 /* Pods-hour-message.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hour-message.debug.xcconfig"; path = "Target Support Files/Pods-hour-message/Pods-hour-message.debug.xcconfig"; sourceTree = "<group>"; };
+		AB62B985FD363BD49DC7256B /* Pods-hour-message-hour-messageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hour-message-hour-messageUITests.debug.xcconfig"; path = "Target Support Files/Pods-hour-message-hour-messageUITests/Pods-hour-message-hour-messageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D168CC3F069597A3E0204318 /* Pods_hour_messageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hour_messageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB88F1F9E8027C0D15DE4340 /* Pods_hour_message_hour_messageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hour_message_hour_messageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B58BD728D8EB4100998C16 /* XCTest.framework in Frameworks */,
+				6799A7DAB9147EB40303D9B6 /* Pods_hour_message.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6859F62869E8BE42E325C9 /* Pods_hour_messageTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +93,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FC6253D97709640CFE03FFC /* Pods_hour_message_hour_messageUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C870EF4A5771965ACCA9422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87B58BD628D8EB4100998C16 /* XCTest.framework */,
+				82834EA4A1438C3ECDFBB472 /* Pods_hour_message.framework */,
+				EB88F1F9E8027C0D15DE4340 /* Pods_hour_message_hour_messageUITests.framework */,
+				D168CC3F069597A3E0204318 /* Pods_hour_messageTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C47578EC39E306CC5D854C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8817CC6FD57D025BBF195815 /* Pods-hour-message.debug.xcconfig */,
+				5A853BF73EB9870F2BCAF83D /* Pods-hour-message.release.xcconfig */,
+				AB62B985FD363BD49DC7256B /* Pods-hour-message-hour-messageUITests.debug.xcconfig */,
+				5FBFD29EFBBACF33C29182B7 /* Pods-hour-message-hour-messageUITests.release.xcconfig */,
+				817EC08E1BF049FB24EDE2AE /* Pods-hour-messageTests.debug.xcconfig */,
+				2F0F3AECBBC1313C7523F8EC /* Pods-hour-messageTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		87B58B8828D79F5800998C16 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +131,8 @@
 				87B58BAA28D79F5900998C16 /* hour-messageTests */,
 				87B58BB428D79F5900998C16 /* hour-messageUITests */,
 				87B58B9228D79F5800998C16 /* Products */,
+				2C870EF4A5771965ACCA9422 /* Frameworks */,
+				5C47578EC39E306CC5D854C7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +149,9 @@
 		87B58B9328D79F5800998C16 /* hour-message */ = {
 			isa = PBXGroup;
 			children = (
+				87B58BCD28D81DE000998C16 /* Helpers */,
+				87B58BC728D81BA800998C16 /* Scenes */,
+				87B58BC428D81A6900998C16 /* View */,
 				87B58B9428D79F5800998C16 /* AppDelegate.swift */,
 				87B58B9628D79F5800998C16 /* SceneDelegate.swift */,
 				87B58B9828D79F5800998C16 /* ViewController.swift */,
@@ -124,6 +179,39 @@
 			path = "hour-messageUITests";
 			sourceTree = "<group>";
 		};
+		87B58BC428D81A6900998C16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		87B58BC728D81BA800998C16 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				87B58BC528D81A7C00998C16 /* HourMessageView.swift */,
+				87B58BC828D81BB000998C16 /* Resources */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		87B58BC828D81BB000998C16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87B58BC928D81BCD00998C16 /* HourMessageString.strings */,
+				87B58BCB28D81D7C00998C16 /* HourMessageString.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		87B58BCD28D81DE000998C16 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				87B58BCE28D81DF700998C16 /* String+Resources.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87B58BBB28D79F5900998C16 /* Build configuration list for PBXNativeTarget "hour-message" */;
 			buildPhases = (
+				D28E0FD42B0795AD1FD05AFE /* [CP] Check Pods Manifest.lock */,
 				87B58B8D28D79F5800998C16 /* Sources */,
 				87B58B8E28D79F5800998C16 /* Frameworks */,
 				87B58B8F28D79F5800998C16 /* Resources */,
@@ -148,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87B58BBE28D79F5900998C16 /* Build configuration list for PBXNativeTarget "hour-messageTests" */;
 			buildPhases = (
+				675B878973E9962C6DC9872E /* [CP] Check Pods Manifest.lock */,
 				87B58BA328D79F5900998C16 /* Sources */,
 				87B58BA428D79F5900998C16 /* Frameworks */,
 				87B58BA528D79F5900998C16 /* Resources */,
@@ -166,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87B58BC128D79F5900998C16 /* Build configuration list for PBXNativeTarget "hour-messageUITests" */;
 			buildPhases = (
+				B792A5BE502BD93B362CE145 /* [CP] Check Pods Manifest.lock */,
 				87B58BAD28D79F5900998C16 /* Sources */,
 				87B58BAE28D79F5900998C16 /* Frameworks */,
 				87B58BAF28D79F5900998C16 /* Resources */,
@@ -228,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B58BCA28D81BCD00998C16 /* HourMessageString.strings in Resources */,
 				87B58BA128D79F5900998C16 /* LaunchScreen.storyboard in Resources */,
 				87B58B9E28D79F5900998C16 /* Assets.xcassets in Resources */,
 			);
@@ -249,6 +341,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		675B878973E9962C6DC9872E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hour-messageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B792A5BE502BD93B362CE145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hour-message-hour-messageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D28E0FD42B0795AD1FD05AFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hour-message-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		87B58B8D28D79F5800998C16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -256,7 +417,10 @@
 			files = (
 				87B58B9928D79F5800998C16 /* ViewController.swift in Sources */,
 				87B58B9528D79F5800998C16 /* AppDelegate.swift in Sources */,
+				87B58BCF28D81DF700998C16 /* String+Resources.swift in Sources */,
+				87B58BC628D81A7C00998C16 /* HourMessageView.swift in Sources */,
 				87B58B9728D79F5800998C16 /* SceneDelegate.swift in Sources */,
+				87B58BCC28D81D7C00998C16 /* HourMessageString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +584,7 @@
 		};
 		87B58BBC28D79F5900998C16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8817CC6FD57D025BBF195815 /* Pods-hour-message.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,6 +611,7 @@
 		};
 		87B58BBD28D79F5900998C16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A853BF73EB9870F2BCAF83D /* Pods-hour-message.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,6 +638,7 @@
 		};
 		87B58BBF28D79F5900998C16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817EC08E1BF049FB24EDE2AE /* Pods-hour-messageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +658,7 @@
 		};
 		87B58BC028D79F5900998C16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0F3AECBBC1313C7523F8EC /* Pods-hour-messageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +678,7 @@
 		};
 		87B58BC228D79F5900998C16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB62B985FD363BD49DC7256B /* Pods-hour-message-hour-messageUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +696,7 @@
 		};
 		87B58BC328D79F5900998C16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FBFD29EFBBACF33C29182B7 /* Pods-hour-message-hour-messageUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

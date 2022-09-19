@@ -15,16 +15,38 @@ enum Hour {
 }
 
 class ViewController: UIViewController {
-    
+
     var morning: Bool?
     var evening: Bool?
     var night: Bool?
     var dawn: Bool?
     var hour: Int?
-
+    
+    private lazy var hourMessageView: HourMessageView = {
+        let view = HourMessageView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+    
+    init() {
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(hourMessageView)
         getHour(hour: .morning)
+        
+        NSLayoutConstraint.activate([
+            hourMessageView.topAnchor.constraint(equalTo: view.topAnchor),
+            hourMessageView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            hourMessageView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            hourMessageView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        ])
     }
     
     func getHour(hour: Hour) {
@@ -39,7 +61,7 @@ class ViewController: UIViewController {
            dateFormatter.timeZone = timeZone
         }
         
-        var dateNow = Date.now
+        let dateNow = Date.now
         
         
         print(hour)
@@ -122,18 +144,26 @@ class ViewController: UIViewController {
         let dawn = (calendar.component(.hour, from: dawnMidNight)...calendar.component(.hour, from: dawnFiveAm)).contains(hour)
     
         if morning {
+            hourMessageView.messageLabel.text = HourMessageString.messageMorning.localized
+            hourMessageView.image.image = UIImage(named: "morning")
             print("Bom dia")
         }
         
         if evening {
+            hourMessageView.messageLabel.text = HourMessageString.messageEvening.localized
+            hourMessageView.image.image = UIImage(named: "evening")
             print("Boa tarde")
         }
         
         if night {
+            hourMessageView.messageLabel.text = HourMessageString.messageNight.localized
+            hourMessageView.image.image = UIImage(named: "night")
             print("Boa noite")
         }
         
         if dawn {
+            hourMessageView.messageLabel.text = HourMessageString.messageDawn.localized
+            hourMessageView.image.image = UIImage(named: "dawn")
             print("Ainda acordado?")
         }
         
@@ -147,7 +177,7 @@ class ViewController: UIViewController {
 //        case .dawn:
 //            dateDawnMidNight.hashValue > dateDawnFiveAm.hashValue
 //        }
-    }
+                                                         }
 }
 
 extension Date {
